@@ -34,3 +34,33 @@ string[] GetEvenOrLessThree (string[] array) // наименование фун�
     }
     return newArray;
 }
+
+// Для проверки работоспособности функции добавим функцию вывода массива
+void PrintArray(string[] array)
+{
+    Console.Write("[");
+    for (int i = 0; i < array.Length; i++)
+    {
+        if (i < array.Length - 1)
+        {
+            Console.Write($"{array[i]}, ");
+        }
+        else
+        {
+            Console.Write($"{array[i]}");
+        }
+
+    }
+    Console.Write("]");
+}
+
+// Вызов функции
+string[] symbols = ["Hello", "2", "world", ":-)"];
+string[] symbols1 = ["1234", "1567", "-2", "computer science"];
+string[] symbols2 = ["Russia", "Denmark", "Kazan"];
+string[] symbols3 = GetEvenOrLessThree(symbols);
+string[] symbols4 = GetEvenOrLessThree(symbols1);
+string[] symbols5 = GetEvenOrLessThree(symbols2);
+PrintArray(symbols3);
+PrintArray(symbols4);
+PrintArray(symbols5);
