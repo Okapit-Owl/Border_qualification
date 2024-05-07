@@ -1,0 +1,14 @@
+E:\GeekBrains\Border_attestation\project\bin\Debug\net8.0\project.exe
+E:\GeekBrains\Border_attestation\project\bin\Debug\net8.0\project.deps.json
+E:\GeekBrains\Border_attestation\project\bin\Debug\net8.0\project.runtimeconfig.json
+E:\GeekBrains\Border_attestation\project\bin\Debug\net8.0\project.dll
+E:\GeekBrains\Border_attestation\project\bin\Debug\net8.0\project.pdb
+E:\GeekBrains\Border_attestation\project\obj\Debug\net8.0\project.GeneratedMSBuildEditorConfig.editorconfig
+E:\GeekBrains\Border_attestation\project\obj\Debug\net8.0\project.AssemblyInfoInputs.cache
+E:\GeekBrains\Border_attestation\project\obj\Debug\net8.0\project.AssemblyInfo.cs
+E:\GeekBrains\Border_attestation\project\obj\Debug\net8.0\project.csproj.CoreCompileInputs.cache
+E:\GeekBrains\Border_attestation\project\obj\Debug\net8.0\project.dll
+E:\GeekBrains\Border_attestation\project\obj\Debug\net8.0\refint\project.dll
+E:\GeekBrains\Border_attestation\project\obj\Debug\net8.0\project.pdb
+E:\GeekBrains\Border_attestation\project\obj\Debug\net8.0\project.genruntimeconfig.cache
+E:\GeekBrains\Border_attestation\project\obj\Debug\net8.0\ref\project.dll
