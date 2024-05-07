@@ -49,7 +49,6 @@ void PrintArray(string[] array)
         {
             Console.Write($"{array[i]}");
         }
-
     }
     Console.Write("]");
 }
