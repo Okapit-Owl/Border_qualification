@@ -61,6 +61,7 @@ string[] symbols2 = ["Russia", "Denmark", "Kazan"];
 string[] symbols3 = GetEvenOrLessThree(symbols);
 string[] symbols4 = GetEvenOrLessThree(symbols1);
 string[] symbols5 = GetEvenOrLessThree(symbols2);
+// Вывод результата
 PrintArray(symbols3);
 Console.WriteLine();
 PrintArray(symbols4);
