@@ -8,7 +8,7 @@
 // [“1234”, “1567”, “-2”, “computer science”] → [“-2”]
 // [“Russia”, “Denmark”, “Kazan”] → []
 
-string[] GetEvenOrLessThree (string[] array)
+string[] GetEvenOrLessThree (string[] array) // наименование функции для решения задачи
 {
     // Создаём переменную для размера будущего массива и в цикле определяем её значение.
     // Для этого считаем количество элементов в исходном массиве, равных или меньше 3 символам.
@@ -20,6 +20,17 @@ string[] GetEvenOrLessThree (string[] array)
             count = count + 1;
         }
     }
-
     
+    // Создаём будущий массив, указывая его размер в виде переменной, найденной в первом шаге,
+    string[] newArray = new string[count];
+    int index = 0; // создаём переменную для перечисления индекса элементов нового массива,
+    for (int i = 0; i < array.Length; i++) // в цикле определяем наличие искомых элементов
+    {
+        if(array[i].Length <= 3)
+        {
+            newArray[index] = array[i]; // и помещаем их в новый массив
+            index = index + 1;
+        }
+    }
+    return newArray;
 }
